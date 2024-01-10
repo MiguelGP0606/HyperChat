@@ -1,14 +1,14 @@
 //LINKS DO SEU APP FIREBASE
 const firebaseConfig = {
-      apiKey: "AIzaSyCu0ohu_v4fktLCgKcIMXXfXCP_pADfaCA",
-      authDomain: "hyper-chat-4e461.firebaseapp.com",
-      databaseURL: "https://hyper-chat-4e461-default-rtdb.firebaseio.com",
-      projectId: "hyper-chat-4e461",
-      storageBucket: "hyper-chat-4e461.appspot.com",
-      messagingSenderId: "383317099027",
-      appId: "1:383317099027:web:e917b881faade7700435e6",
-      measurementId: "G-C12DJ6SGTG"
-    };
+    apiKey: "AIzaSyCr423fF-T_e1iWnjeFwOx2RGyL6VPB0p4",
+    authDomain: "hyperc-f94d6.firebaseapp.com",
+    databaseURL: "https://hyperc-f94d6-default-rtdb.firebaseio.com",
+    projectId: "hyperc-f94d6",
+    storageBucket: "hyperc-f94d6.appspot.com",
+    messagingSenderId: "764682969459",
+    appId: "1:764682969459:web:df7b3f5a07b57f8204e506",
+    measurementId: "G-BG9V5KWV6C"
+  };
     firebase.initializeApp(firebaseConfig);
     user_name = localStorage.getItem("user_name");
     room_name = localStorage.getItem("room_name");
@@ -34,7 +34,7 @@ function getData() { firebase.database().ref("/"+room_name).on('value', function
            name = message_data['name'];
            message = message_data['message'];
        like = message_data['like'];
-       name_with_tag = "<h4> "+ name + "<img class = 'user_tick' src='tick.png' </h4>";
+       name_with_tag = "<h4> "+ name + "<img class = 'user_tick' src='tick.png'  </h4>";
        message_with_tag = "<h4 class='message_h4'>" + message + "</h4>";
 like_button ="<button class='btn btn-warning' id="+firebase_message_id+" value="+like+" onclick='updateLike(this.id)'>Curtidas: "+ like +"</button>";
 
