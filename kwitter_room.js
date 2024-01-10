@@ -1,14 +1,14 @@
 
 //ADICIONE SEUS LINKS DO FIREBASE
 const firebaseConfig = {
-  apiKey: "AIzaSyCu0ohu_v4fktLCgKcIMXXfXCP_pADfaCA",
-  authDomain: "hyper-chat-4e461.firebaseapp.com",
-  databaseURL: "https://hyper-chat-4e461-default-rtdb.firebaseio.com",
-  projectId: "hyper-chat-4e461",
-  storageBucket: "hyper-chat-4e461.appspot.com",
-  messagingSenderId: "383317099027",
-  appId: "1:383317099027:web:e917b881faade7700435e6",
-  measurementId: "G-C12DJ6SGTG"
+  apiKey: "AIzaSyCr423fF-T_e1iWnjeFwOx2RGyL6VPB0p4",
+  authDomain: "hyperc-f94d6.firebaseapp.com",
+  databaseURL: "https://hyperc-f94d6-default-rtdb.firebaseio.com",
+  projectId: "hyperc-f94d6",
+  storageBucket: "hyperc-f94d6.appspot.com",
+  messagingSenderId: "764682969459",
+  appId: "1:764682969459:web:df7b3f5a07b57f8204e506",
+  measurementId: "G-BG9V5KWV6C"
 };
 firebase.initializeApp(firebaseConfig);
 
