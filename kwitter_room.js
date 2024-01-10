@@ -1,4 +1,5 @@
 
+
 //ADICIONE SEUS LINKS DO FIREBASE
 const firebaseConfig = {
   apiKey: "AIzaSyCr423fF-T_e1iWnjeFwOx2RGyL6VPB0p4",
